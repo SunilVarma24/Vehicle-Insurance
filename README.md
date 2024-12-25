@@ -11,7 +11,7 @@ Insurance companies benefit from machine learning to improve customer engagement
 ## Dataset Description
 The dataset contains:
 - **Demographics**: Gender, age, region code type  
-- **Vehicles**: Vehicle age, history of damage  
+- **Vehicles**: Vehicle age, Vehicle damage 
 - **Policy Details**: Premium, sourcing channel  
 
 The target variable is highly imbalanced:
@@ -20,18 +20,17 @@ The target variable is highly imbalanced:
 
 ## Methodology
 1. **Data Preprocessing**:
-   - Removed noisy and overlapping samples using Edited Nearest Neighbors (ENN).
-   - Applied SMOTETomek for under- and oversampling to balance the data and create synthetic samples.
+   - Removed outliers as well as noisy and overlapping samples using Edited Nearest Neighbors (ENN).
+   - Applied SMOTETomek for under and oversampling to balance the data and create synthetic samples.
 
-2. **Feature Engineering**:
-   - One-hot encoding for categorical variables.
+3. **Feature Engineering**:
    - Normalized numerical variables.
 
-3. **Model Training**:
+4. **Model Training**:
    - Used the XGBoost algorithm due to its robustness and efficiency with structured data.
    - Evaluated the model on validation and test sets.
 
-4. **Performance Metrics**:
+5. **Performance Metrics**:
    - Accuracy: 93%
    - Precision, Recall, and F1-Score were also analyzed to ensure balance.
 
@@ -43,4 +42,4 @@ The model effectively predicts vehicle insurance interest with consistent perfor
 ## Installation
 To replicate this project, install the necessary libraries:
 ```bash
-pip install numpy pandas scikit-learn xgboost imbalanced-learn matplotlib seaborn
+pip install numpy pandas sklearn xgboost imblearn matplotlib seaborn
