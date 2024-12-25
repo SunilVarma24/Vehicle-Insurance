@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/532562a5-698e-41da-b75c-736d584acb1f)
+
 # Vehicle Insurance Prediction using Machine Learning
 
 ## Project Overview
@@ -5,8 +7,6 @@ This project predicts whether past health insurance customers will be interested
 
 ## Introduction
 Insurance companies benefit from machine learning to improve customer engagement and optimize their services. This project focuses on predicting vehicle insurance interest among past health insurance policyholders. Accurate predictions enable the company to target customers effectively, increasing revenue and operational efficiency.
-
-![image](https://github.com/user-attachments/assets/532562a5-698e-41da-b75c-736d584acb1f)
 
 ## Dataset Description
 The dataset contains:
