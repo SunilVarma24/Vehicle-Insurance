@@ -20,7 +20,7 @@ The target variable is highly imbalanced:
 
 ## Methodology
 1. **Data Preprocessing**:
-   - Removed outliers as well as noisy and overlapping samples using Edited Nearest Neighbors (ENN).
+   - Removed outliers as well as noisy and overlapping majority samples using Edited Nearest Neighbors (ENN).
    - Applied SMOTETomek for under and oversampling to balance the data and create synthetic samples.
 
 3. **Feature Engineering**:
